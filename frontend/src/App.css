@@ -1,0 +1,10 @@
+/*ESG 프로젝트 전역 CSS*/
+
+body {
+  margin: 0;
+}
+
+.title {
+  background-color: palegreen;
+  margin: 0;
+}
