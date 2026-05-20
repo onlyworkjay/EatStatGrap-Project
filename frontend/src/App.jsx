@@ -1,6 +1,7 @@
+import {Route, Routes} from "react-router-dom";
 import "./App.css";
 import ReviewListPage from "./pages/review/ReviewListPage";
-import {Routes} from "react-router-dom";
+
 
 function App() {
   return (

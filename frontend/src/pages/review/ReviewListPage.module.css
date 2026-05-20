@@ -1,3 +1,57 @@
-.pageTitle {
+.review-page {
+    padding: 20px;
+}
+
+.review-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.review-search-area {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.search-bar-wrapper {
+    flex: 1;
+}
+
+.review-select {
+    width: 140px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.review-button-area {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+.write-button {
+    padding: 10px 16px;
+    background-color: #2563eb;
     color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.write-button:hover {
+    background-color: #1d4ed8;
+}
+
+.empty-message {
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+    font-size: 25px;
 }
