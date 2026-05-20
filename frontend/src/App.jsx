@@ -1,10 +1,18 @@
 import "./App.css";
+import ReviewListPage from "./pages/review/ReviewListPage";
+import {Routes} from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <h1 className="title">ESG 프로젝트 화이팅</h1>
-    </>
+    <div className="wrap">
+      <Header />
+      <div className="main">
+        <Routes>
+          <Route path="/review" element={<ReviewListPage />} />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
   );
 }
 
